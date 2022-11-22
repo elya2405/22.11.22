@@ -3,13 +3,17 @@
 }
 main {
   display: flex;
+  flex-wrap: wrap;
 }
 header {
   background-color: aquamarine;
+  flex: 1 1 100%;
 }
 aside {
   background-color:rgb(153, 192, 95);
+  flex: 0 0 250px;
 }
 article {
   background-color:coral;
+  flex: 1 1 0;
 }

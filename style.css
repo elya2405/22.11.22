@@ -1,3 +1,15 @@
 * {
   box-sizing: border-box;
 }
+main {
+  display: flex;
+}
+header {
+  background-color: aquamarine;
+}
+aside {
+  background-color:rgb(153, 192, 95);
+}
+article {
+  background-color:coral;
+}
